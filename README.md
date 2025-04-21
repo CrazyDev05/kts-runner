@@ -1,16 +1,6 @@
-# Kts - Kotlin Script Runner Library
-
-A lightweight Kotlin library for running Kotlin scripts (.kts files) programmatically via an API.
-
 ## Overview
 
 This library provides a simple API for evaluating Kotlin scripts from strings or files. It leverages the Kotlin Scripting API to compile and execute Kotlin scripts at runtime.
-
-## Features
-
-- Run Kotlin scripts from strings or files
-- Get script evaluation results and error messages
-- Simple, easy-to-use API
 
 ## Usage
 
@@ -19,8 +9,15 @@ This library provides a simple API for evaluating Kotlin scripts from strings or
 Add the library to your project:
 
 ```kotlin
+repositories {
+    maven {
+        name = "crazydev22Public"
+        url = uri("https://repo.crazydev22.de/public")
+    }
+}
+
 dependencies {
-    implementation("de.crazydev22:kts:0.1.0")
+    implementation("de.crazydev22:kts-runner:0.0.1")
 }
 ```
 
