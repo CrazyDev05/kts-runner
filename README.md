@@ -90,7 +90,3 @@ This project uses [Gradle](https://gradle.org/) with the Gradle Wrapper.
 
 - JDK 21 or higher
 - Kotlin 2.1.20 or higher
-
-## License
-
-This library is available under the MIT License.
