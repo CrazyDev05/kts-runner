@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-    implementation("de.crazydev22:kts-runner:0.0.1")
+    implementation("de.crazydev22:kts-runner:0.0.2")
 }
 ```
 
