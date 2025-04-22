@@ -55,7 +55,7 @@ publishing {
         repositories {
             maven {
                 name = "CrazyDev22"
-                url = uri("https://repo.crazydev22.de/private")
+                url = uri("https://repo.crazydev22.de/public")
                 credentials(PasswordCredentials::class)
             }
         }
